@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
+
+data/lotr_words_df.csv
