@@ -87,3 +87,15 @@ litters_readr
 ```
 
 
+## Data export
+
+```{r}
+write_csv(mlb_df, file = "data/mlb_df.csv")
+```
+
+
+
+
+
+
+

@@ -305,3 +305,9 @@ litters_readr
     ## 47                 0            7
     ## 48                 0            5
     ## 49                 0            6
+
+## Data export
+
+``` r
+write_csv(mlb_df, file = "data/mlb_df.csv")
+```
