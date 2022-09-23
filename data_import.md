@@ -10,7 +10,7 @@ Data Import
     ## ✖ dplyr::filter() masks stats::filter()
     ## ✖ dplyr::lag()    masks stats::lag()
 
-## Data Import: CSVs
+# Data Import: CSVs
 
 Let’s import data using the `readr` package.
 
@@ -138,3 +138,26 @@ read_csv("data/FAS_litters.csv", na = c("", "NA", 999, 88), skip = 2)
 ```
 
 check out ?read_csv() for more information
+
+# Other file formates
+
+we need to read in an excel spreadsheet …
+
+``` r
+mlb_df = read_excel("data/mlb11.xlsx")
+mlb_df = read_excel("data/mlb11.xlsx", range = "A1:F7")
+```
+
+-   specific to exvel file ?read_excel
+
+``` r
+view(mlb_df)
+```
+
+## Still more formats …
+
+Read in a SAS dataset.
+
+``` r
+pulse_df = read_sas("data/public_pulse_data.sas7bdat")
+```
