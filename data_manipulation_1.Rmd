@@ -1,0 +1,11 @@
+---
+title: "Data Manipulation1"
+output: github_document
+---
+
+```{r}
+library(tidyverse)
+```
+
+
+
