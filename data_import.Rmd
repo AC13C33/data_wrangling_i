@@ -40,3 +40,15 @@ skimr::skim(litters_df)
 ```
 
 
+# Options to read CSV
+
+`red_csv` options ..
+
+```{r, eval = FALSE}
+read_csv("data/FAS_litters.csv", na = c("", "NA", 999, 88), skip = 2)
+```
+
+check out ?read_csv() for more information 
+
+
+
